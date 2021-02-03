@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="none" name="Suite">
+    <test name="Test">
+        <parameter name="Username" value="admin" />
+        <parameter name="Password" value="password" />
+        <classes>
+            <class name="testNGTests.Activity6_TestNG" />
+        </classes>
+    </test>
+</suite>
